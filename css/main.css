@@ -1,0 +1,135 @@
+*{
+    font-family: "Open Sans", serif;
+}
+.header{
+    background-color: #1E202B;
+    color: #FFF;
+}
+.header a{
+    color: #FFF !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.header a:hover{
+    color:
+    rgb(0, 154, 216) !important ;
+    border: solid 1px 
+    rgb(0, 154, 216) !important; 
+}
+.header a.active{
+    color:
+    rgb(0, 154, 216) !important ;
+    border: solid 1px 
+    rgb(0, 154, 216) !important;
+
+}
+.header .navbar{
+    background-color: transparent !important;
+ 
+}
+
+.header img{
+    scale: 0.8;
+}
+h1{
+    
+    font-weight: 700;
+    font-size: 16px;
+}
+.header p{
+    font-weight: 300;
+    font-size: 10px;
+    color: rgb(191, 193, 200);
+}
+.background {
+    background-image: url("../images/banner.png");
+    height: 350px;
+}
+.colored{
+    background-color: #1E202B;
+    height: 300px;
+}
+.data {
+    top: 30%;
+    left: 17%;
+}
+.data img{
+    width: 10%;
+}
+.start .t,.end .t{
+   background-color: #2D303D;
+}
+.middle .t{
+    background-color: #222530;
+}
+.data .card{
+    color: rgb(191, 193, 200) !important;
+}
+.data .middle .card-body{
+    background-color: #262936;
+
+}
+.data .start .card-body,.data .end .card-body{
+    background-color: #323544;
+}
+.data .start .card-title{
+    font-size: 90px;
+}
+.data .start .image{
+    width: 50%;
+}
+.data .start img{
+    width: 100%;
+}
+.details .d1 img , .details .d2 img, .details .d3 img{
+    width: 100%;
+}
+.data .middle img,.data .end img{
+    width: 80%;
+}
+.data .card h5{
+    font-weight: 700;
+    color: #FFF;
+}
+.data .card h6{
+    font-weight: 300;
+}
+.data .card-text{
+color: #009ad8;
+font-weight: 300;
+}
+.footer{
+    background-color: #262936;
+}
+.subscribe,.subscribe .sub{
+    background-color: #1E202B;
+  
+}
+.subscribe{
+    height: 50px;
+}
+.subscribe .sub{
+    height: 44px;
+    --bs-focus-ring-color: transparent;
+    color: #FFF;
+
+}
+.subscribe .my-btn{
+    background-color: #009AD8;
+    color: #FFF;
+}
+.footer .media i{
+
+ color: #009AD8;
+ background-color: #1E202B;
+ border-radius: 50% 50%;
+ padding: 10px;
+ font-size: 20px;
+}
+.footer .media i:hover{
+    color: #FFF;
+background-color: #74C0FC;
+}
+.footer p{
+color: rgb(191, 193, 200);
+}
